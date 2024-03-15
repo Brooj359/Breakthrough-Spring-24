@@ -6,3 +6,4 @@ image_blend = choose(
 	c_purple,
 	c_orange,
 )
+
