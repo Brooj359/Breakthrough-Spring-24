@@ -8,5 +8,7 @@ if (room == rm_end) {
 	room_goto(rm_start)	
 }
 
-
+if (room == rm_fail) {
+	room_goto(rm_game)	
+}
 

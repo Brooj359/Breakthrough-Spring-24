@@ -15,6 +15,7 @@ if(bbox_bottom > room_height){
 	
 	if(global.player_lives <= 0) {
 		obj_control.gameover = true; 
+		room_goto(rm_fail)
 		if(global.player_score > global.high_score){
 			global.high_score = global.player_score
 		}
